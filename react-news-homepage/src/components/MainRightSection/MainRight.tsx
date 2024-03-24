@@ -8,7 +8,9 @@ const MainRight = () => {
                 <div className={styles.asideContainer}>
                     <h2>New</h2>
                     {infos.map((info, index) => (
-                        <MainRightProps key={index} info={info} />
+                        <div key={index}>
+                            <MainRightProps info={info} />
+                        </div>
                     ))}
                 </div>
             </aside>

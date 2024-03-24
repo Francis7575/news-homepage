@@ -12,11 +12,16 @@ h2 {
     color: #E9AA52;
 }
 
-h3 {
+.link {
     color: #FFFDFA;
     font-weight: 800;
     font-size: 1.25rem;
     margin-bottom: .5rem;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #E9AA52;
 }
 
 .paragraph {

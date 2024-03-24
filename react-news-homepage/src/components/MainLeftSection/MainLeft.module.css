@@ -40,6 +40,11 @@ h1 {
     letter-spacing: 4.375px;
     font-weight: 700;
     font-size: .87rem;
+    cursor: pointer;
+}
+
+#readMoreBtn:hover {
+    background: #00001A;
 }
 
 .section {

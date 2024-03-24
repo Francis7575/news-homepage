@@ -15,12 +15,12 @@ const Menu = () => {
     return (
         <nav>
             <div className={`${styles.menuBackground} ${isMenuOpened ? styles.showMenu : styles.hideMenu}`}>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">New</a></li>
-                    <li><a href="#">Popular</a></li>
-                    <li><a href="#">Trending</a></li>
-                    <li><a href="#">Categories</a></li>
+                <ul className={styles.ul}>
+                    <li><a className={styles.list} href="#">Home</a></li>
+                    <li><a className={styles.list} href="#">New</a></li>
+                    <li><a className={styles.list} href="#">Popular</a></li>
+                    <li><a className={styles.list} href="#">Trending</a></li>
+                    <li><a className={styles.list} href="#">Categories</a></li>
                 </ul>
             </div>
 
