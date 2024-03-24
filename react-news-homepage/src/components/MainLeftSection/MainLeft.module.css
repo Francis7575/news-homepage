@@ -133,11 +133,15 @@ h1 {
 
 @media (min-width: 90em) {
     main {
-        padding: 0 10.31rem 5rem 10.31rem;
+        padding: 0 10.31rem 7.93rem 10.31rem;
         margin-top: 3.43rem
     }
 
     #readMoreBtn {
         padding: .75rem 2rem;
+    }
+
+    .section {
+        margin-right: 1.87rem;
     }
 }

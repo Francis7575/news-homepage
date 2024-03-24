@@ -1,5 +1,5 @@
-import { MainRightProps, infos } from './MainRightProps'
-import styles from './MainRight.module.css'
+import { MainRightProps, infos } from './MainRightProps';
+import styles from './MainRight.module.css';
 
 const MainRight = () => {
     return (
@@ -8,7 +8,7 @@ const MainRight = () => {
                 <div className={styles.asideContainer}>
                     <h2>New</h2>
                     {infos.map((info, index) => (
-                        <div key={index}>
+                        <div key={index} className={`${styles.container} ${index === infos.length - 1 ? styles.lastContainer : ''}`}>
                             <MainRightProps info={info} />
                         </div>
                     ))}

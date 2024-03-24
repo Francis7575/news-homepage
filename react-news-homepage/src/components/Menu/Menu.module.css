@@ -56,6 +56,7 @@
     .ul {
         flex-direction: row;
         padding: 0;
+        gap: 2.5rem;
         justify-content: flex-end;
     }
 
@@ -71,5 +72,6 @@
     .list {
         font-size: .93rem;
         gap: 2.5rem;
+        color: #5E607A;
     }
 }

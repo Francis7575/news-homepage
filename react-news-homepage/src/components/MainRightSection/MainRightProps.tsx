@@ -26,7 +26,7 @@ const infos: Info[] = [
 
 const MainRightProps: React.FC<{ info: Info }> = ({ info }) => {
     return (
-        <div className={styles.container}>
+        <div>
             <ul style={{ marginBottom: '.5rem' }}>
                 <li>
                     <a className={styles.link} href={info.link}>{info.heading}</a>
