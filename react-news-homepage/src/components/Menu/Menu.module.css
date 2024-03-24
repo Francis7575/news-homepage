@@ -1,0 +1,76 @@
+.showMenu {
+    display: block;
+}
+
+.hideMenu {
+    display: none;
+}
+
+.menuBackground {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FFFDFA;
+    max-width: 68%;
+    width: 100%;
+    z-index: 3;
+    min-height: 41.81rem;
+    padding: 0 1.81rem 0 1.5rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 9rem;
+    list-style: none;
+}
+
+ul li a {
+    font-size: 1.12rem;
+    line-height: 1.5rem;
+    color: #00001A;
+    text-decoration: none;
+}
+
+.openMenu,
+.closeMenu {
+    position: relative;
+    z-index: 4;
+}
+
+@media (min-width: 64em) {
+    .menuBackground {
+        position: static;
+        max-width: 0;
+        padding: 0;
+        min-height: 0;
+        width: 0;
+    }
+
+    ul {
+        flex-direction: row;
+        padding: 0;
+        justify-content: flex-end;
+    }
+
+    .hideMenu {
+        display: block;
+    }
+
+    .openMenu,
+    .closeMenu {
+        display: none;
+    }
+
+    ul li a {
+        font-size: .93rem;
+    }
+}
+
+@media(min-width: 90em) {
+    ul {
+        gap: 2.5rem;
+    }
+}
