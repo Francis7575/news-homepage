@@ -1,0 +1,27 @@
+.logo {
+    max-width: 2.75rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.75rem 1rem 0 1rem;
+}
+
+@media(min-width: 64em) {
+    .logo {
+        max-width: 4rem;
+    }
+
+    .container {
+        padding: 5.56rem 2rem 0 2rem;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 90em) {
+    .container {
+        padding: 5.56rem 10.31rem 0 10.31rem;
+    }
+}

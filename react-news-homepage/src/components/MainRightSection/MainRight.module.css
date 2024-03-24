@@ -1,0 +1,64 @@
+aside {
+    display: flex;
+    background: #00001A;
+    padding: 1.5rem 1.25rem;
+    max-width: 33rem;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #E9AA52;
+}
+
+h3 {
+    color: #FFFDFA;
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+}
+
+.paragraph {
+    color: #C5C6CE;
+    line-height: 1.62rem;
+    font-size: .93rem;
+}
+
+.container {
+    width: 100%;
+    border-bottom: 1px solid #5E607A;
+    padding-bottom: 1.81rem;
+}
+
+.container:last-child {
+    border-bottom: none;
+    padding: 0;
+}
+
+.asideContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.18rem;
+}
+
+.asideWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width: 64em) {
+    aside {
+        max-width: 23rem;
+        margin: 0;
+        flex: 1;
+        padding: 2rem 1.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+}
