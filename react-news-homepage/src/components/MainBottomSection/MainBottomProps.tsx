@@ -1,5 +1,5 @@
-import image1 from '../../assets/image-top-laptops.png'
-import image2 from '../../assets/image-retro-pcs.png'
+import image1 from '../../assets/image-retro-pcs.png'
+import image2 from '../../assets/image-top-laptops.png'
 import image3 from '../../assets/image-gaming-growth.png'
 import styles from './MainBottom.module.css'
 
