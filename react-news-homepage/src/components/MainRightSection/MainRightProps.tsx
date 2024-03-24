@@ -9,17 +9,17 @@ type Info = {
 const infos: Info[] = [
     {
         heading: 'Hydrogen VS Electric Cars',
-        link: 'link URL',
+        link: '#',
         description: 'Will hydrogen-fueled cars ever catch up to EVs?',
     },
     {
         heading: 'The Downsides of AI Artistry',
-        link: 'link URL',
+        link: '#',
         description: 'What are the possible adverse effects of on-demand AI image generation?',
     },
     {
         heading: 'Is VC Funding Drying Up?',
-        link: 'link URL',
+        link: '#',
         description: 'Private funding by VC firms is down 50% YOY. We take a look at what that means.',
     },
 ];
